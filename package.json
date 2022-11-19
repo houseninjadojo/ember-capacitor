@@ -1,0 +1,77 @@
+{
+	"name": "@houseninja/embroider-template",
+	"private": true,
+	"displayName": "Embroider Template",
+	"description": "Monorepo for an example Ember v4.0+ addon implementation using the Embroider Build System",
+	"homepage": "https://github.com/houseninjadojo/embroider-template#readme",
+	"license": "MITNFA",
+	"readme": "README.md",
+	"version": "1.0.2",
+	"author": {
+		"name": "Vish Desai",
+		"email": "shadyvd@hotmail.com",
+		"url": "https://github.com/shadyvd"
+	},
+	"contributors": [
+		{
+			"name": "Vish Desai",
+			"email": "shadyvd@hotmail.com",
+			"url": "https://github.com/shadyvd"
+		},
+		{
+			"name": "Miles Zimmerman",
+			"email": "miles@zim.dev",
+			"url": "https://github.com/mileszim"
+		}
+	],
+	"maintainers": [
+		{
+			"name": "Vish Desai",
+			"email": "shadyvd@hotmail.com",
+			"url": "https://github.com/shadyvd"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/houseninjadojo/embroider-template.git"
+	},
+	"bugs": {
+		"url": "https://github.com/houseninjadojo/embroider-template/issues"
+	},
+	"dependencies": {
+		"@embroider/addon-shim": "1.8.3",
+		"@glimmer/component": "1.1.2",
+		"@glimmer/tracking": "1.1.2"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "17.1.2",
+		"@commitlint/config-conventional": "17.1.0",
+		"commitizen": "4.2.5",
+		"cz-customizable": "7.0.0",
+		"eslint": "8.26.0",
+		"eslint-config-prettier": "8.5.0",
+		"eslint-plugin-editorconfig": "4.0.2",
+		"eslint-plugin-json": "3.1.0",
+		"eslint-plugin-node": "11.1.0",
+		"eslint-plugin-prettier": "4.2.1",
+		"eslint-plugin-security": "1.5.0",
+		"eslint-plugin-security-node": "1.1.1",
+		"git-split-diffs": "0.10.0",
+		"husky": "8.0.1",
+		"is-ci": "3.0.1",
+		"lint-staged": "13.0.3",
+		"npm-check-updates": "16.3.15"
+	},
+	"scripts": {
+		"check-updates": "npx npm-check-updates -i -u && npm run check-updates --workspaces",
+		"lint-staged": "npx lint-staged --allow-empty",
+		"prepare": "is-ci || npx husky install"
+	},
+	"engines": {
+		"node": ">= 14"
+	},
+	"workspaces": [
+		"addons/*",
+		"apps/*"
+	]
+}
