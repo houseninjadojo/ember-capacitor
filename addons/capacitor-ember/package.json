@@ -1,26 +1,22 @@
 {
-	"name": "@houseninja/embroider-addon",
-	"displayName": "Embroider Addon",
-	"description": "Basic Ember 4.0+ Addon using the Embroider build system",
-	"homepage": "https://github.com/houseninjadojo/embroider-template/tree/main/addons/embroider-addon",
+	"name": "@houseninja/ember-capacitor",
+	"displayName": "ember-capacitor",
+	"description": "Ember on Capacitor",
+	"homepage": "https://github.com/houseninjadojo/ember-capacitor/tree/main/addons/ember-capacitor",
 	"license": "MITNFA",
 	"readme": "README.md",
-	"version": "1.0.2",
+	"version": "0.0.1",
 	"keywords": [
 		"ember-addon",
-		"embroider"
+		"embroider",
+		"capacitor"
 	],
 	"author": {
-		"name": "Vish Desai",
-		"email": "shadyvd@hotmail.com",
-		"url": "https://github.com/shadyvd"
+		"name": "House Ninja Engineering",
+		"email": "engineering@houseninja.co",
+		"url": "https://github.com/houseninjadojo"
 	},
 	"contributors": [
-		{
-			"name": "Vish Desai",
-			"email": "shadyvd@hotmail.com",
-			"url": "https://github.com/shadyvd"
-		},
 		{
 			"name": "Miles Zimmerman",
 			"email": "miles@zim.dev",
@@ -29,17 +25,17 @@
 	],
 	"maintainers": [
 		{
-			"name": "Vish Desai",
-			"email": "shadyvd@hotmail.com",
-			"url": "https://github.com/shadyvd"
+			"name": "House Ninja Engineering",
+			"email": "engineering@houseninja.co",
+			"url": "https://github.com/houseninjadojo"
 		}
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/houseninjadojo/embroider-template.git"
+		"url": "git+https://github.com/houseninjadojo/ember-capacitor.git"
 	},
 	"bugs": {
-		"url": "https://github.com/houseninjadojo/embroider-template/issues"
+		"url": "https://github.com/houseninjadojo/ember-capacitor/issues"
 	},
 	"main": "addon-main.js",
 	"exports": {
